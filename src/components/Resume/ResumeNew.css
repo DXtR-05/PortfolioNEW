@@ -1,0 +1,10 @@
+.resume-section .cardmedia {
+    height: 1126px;
+  }
+  
+  @media (max-width: 768px) {
+    .resume-section .cardmedia {
+      height: 600px;
+    }
+  }
+  

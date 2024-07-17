@@ -1,0 +1,18 @@
+.calendar-container {
+  overflow-x: auto;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 5px;
+}
+
+@media (max-width: 700px) {
+  .project-heading {
+    font-size: 1.5rem;
+  }
+
+  .calendar-container {
+    transform: scale(0.9);
+    transform-origin: top center;
+  }
+}
